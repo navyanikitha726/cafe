@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <link rel="icon" href="coffee-logo.png">
+        <title>CAFFEINE LANE</title>
+    </head>
+    <style>
+
+        body{
+            margin: 0;
+            padding: 0;
+        }
+
+        a{
+            font-size: 22px;
+            text-decoration: none;
+            color: aliceblue;
+            
+        }
+
+        a:hover{
+            font-size: 26px;
+            border: 1px rgb(10, 10, 10);
+            background-color: rgb(16, 1, 1);
+            transform: rotate(10deg) scale(1.03);
+        
+        }
+
+        #header {
+            position: fixed;
+            background-color: rgb(132, 79, 15);
+            width: 100%;
+            padding: 15px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+            
+        #pages {
+            display: flex;
+            align-items: center;
+            column-gap: 30px;
+        
+            }
+        
+        #first{
+            background-image: url("coffee-bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content:space-around;
+        }
+
+        #second{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+         #third{
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #fourth{
+            width: 100%;
+            height: 800px;
+            background-image: url("texture.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 30px;
+
+        }
+
+        #fourth img{
+            border: 2px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+        }
+
+        #fourth img:hover{
+            transform: rotate(5deg) scale(1.03);
+        }
+
+        #fourth-child1{
+            
+            padding: 15px;
+            border-radius: 15px;
+        }
+
+
+        #fourth-child2{
+            width: 95%;
+            border-radius: 15px;
+            background-color: rgba(132, 79, 15, 0.567);
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #fifth{
+            width: 100%;
+            height: 500px;
+            background-image: url("bean-bg.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #sixth{
+            background-image: url("texture.jpg");
+            display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px;
+      padding: 80px;
+      text-align: center;
+        }
+
+        #seventh{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #photos{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            background-color: rgba(132, 79, 15, 0.513);
+        }
+
+        #photos img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border: 2px solid #fff;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.6);
+            transition: transform 0.3s ease;
+        }
+
+        #photos img:hover {
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            transform: rotate(2deg) scale(1.03);
+        }
+
+        #footer{
+            color: white;
+            width: 100%;
+            height: 200px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        #footer:hover{
+            
+          border: 1px rgb(246, 246, 246);
+
+        }
+
+
+
+    </style>
+
+    <body>
+        <header>
+            <div id="header">
+               <div>
+                <img src="coffee-logo.png" width="100px" style="border-radius: 50%;">
+               </div>
+
+                <div id="pages">
+                    <a href="#">Home</a>
+                    <a href="#">Pages</a>
+                    <a href="#">Portfolio</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Shop</a>
+                    <img src="cart.jpg" width="40">
+                    <img src="search.jpg" width="35">
+                    <img src="Menu.png" width="30">
+                </div>
+            </div>
+        </header>
+
+        <div id="first">
+            <div style="display: flex; align-items: center; flex-direction: column;">
+               <h1 style="color: rgb(152, 21, 26); font-size: 70px; letter-spacing: 6px;">CAFFEINE LANE</h1>
+    
+            </div>
+        </div>
+
+        <div id="second">
+            <h1 style="font-size: 50px;" >Our Delicious Offer</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+            <p style="font-size: 26px; display: flex; justify-content: center; text-align: center; padding: 40px;">"Freshly Roasted Beans. Every Single Day. Brewed with Passion, Served with Love. From Farm to Cup Taste the Difference."</p>
+        </div>
+
+        <div id="third">
+            <div id="coffee-types" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+                <img src="https://cdn-icons-png.flaticon.com/128/924/924514.png">
+                <h1>Types of coffee</h1>
+                <p>We offer a wide range of coffee.</p>
+            </div>
+
+            <div>
+                <div id="bean-varieties" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+                <img src="https://cdn-icons-png.flaticon.com/128/5424/5424850.png">
+                <h1>Bean Varities</h1>
+                <p>We offer a wide range of varieties of bean coffee.</p>
+                </div>
+            </div>
+
+            <div>
+                <div id="coffee&pastry" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+                <img src="https://cdn-icons-png.flaticon.com/128/7357/7357758.png">
+                <h1>Coffee & Pastry</h1>
+                <p>We offer a wide range of pastries.</p>
+                </div>
+            </div>
+
+            <div>
+                <div id="Coffee_to_go" style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+                <img src="https://cdn-icons-png.flaticon.com/128/1047/1047462.png">
+                <h1>Coffee To Go</h1>
+                <p>We offer a wide range of coffee.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="fourth">
+            <div id="fourth-child1" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <h1>The Coffee Herald</h1>
+                <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+                <p>"Freshly Roasted Beans. Every Single Day. Brewed with Passion, Served with Love. From Farm to Cup Taste the Difference."</p>
+            </div>
+            <div id="fourth-child2">
+                <div id="fourth-child2-child1" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-1.jpg" width="300">
+                    <h1>Prep Techniques</h1>
+                    <p style="width: 65%; text-align: center;">"Every Single Day, Brewed with Passion, Served with Love. From Farm to Cup Taste the Difference."</p>
+                    <a href="#">-Read More</a>
+                </div>
+
+                <div id="fourth-child2-child2" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-2.jpg" width="300">
+                    <h1>French Press</h1>
+                    <p style="width: 65%; text-align: center;">"Every cup tells a story — come sip yours with us. Where the aroma hugs you before the coffee does."</p>
+                    <a href="#">-Read More</a>
+                </div>
+
+                <div id="fourth-child2-child3" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                    <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/blog-1-img-3.jpg" width="300">
+                    <h1>Turkish Ibrik</h1>
+                    <p style="width: 65%; text-align: center;">"Coffee with a conscience, taste the difference."</p>
+                    <a href="#">-Read More</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="fifth">
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-250x226.png">
+        </div>
+
+        <div id="sixth">
+            <div id="1">
+            <h1 style="color: rgb(153, 77, 22);">250</h1>
+            <h3>VARIETIES OF COFFEE</h3>
+            <p>"More than coffee – it's a feeling, a vibe, a daily ritual."</p>
+            </div>
+
+            <div id="2">
+             <h1 style="color: rgb(153, 77, 22);">123</h1>
+            <h3>HOURS OF TESTING</h3>
+            <p>"Because great conversations start over great coffee."</p>
+            </div>
+
+            <div id="3">
+            <h1 style="color: rgb(153, 77, 22);">321</h1>
+            <h3>COFFEE MARKETS</h3>
+            <p>"Wake up and smell the coffee – fresh, bold, and handcrafted."</p>
+            </div>
+
+            <div id="4">
+            <h1 style="color: rgb(153, 77, 22);">220</h1>
+            <h3>COFFEE BRANDS</h3>
+            <p>"Escape the chaos. Enter the calm. One cup at a time."</p>
+            </div>
+        </div>
+
+        <div id="seventh">
+            <h1 style="font-size: 50px;" >Our Sweet Gallery</h1>
+            <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+            <p style="font-size: 26px; display: flex; justify-content: center; text-align: center; padding: 40px;">"Freshly Roasted Beans. Every Single Day. Brewed with Passion, Served with Love. From Farm to Cup Taste the Difference."</p>
+        </div>
+
+        <div id="photos">
+            <img src="pic1.jpg" alt="Coffee Art 1">
+            <img src="pic2.jpg" alt="Coffee Art 2">
+            <img src="pic3.jpg" alt="Coffee Art 3">
+            <img src="pic4.jpg" alt="Coffee Art 4">
+            <img src="pic5.jpg" alt="Coffee Art 5">
+            <img src="pic6.jpg" alt="Coffee Art 6">
+            <img src="pic7.jpg" alt="Coffee Art 7">
+            <img src="pic8.jpg" alt="Coffee Art 8">
+            <img src="pic9.jpg" alt="Coffee Art 8">
+        </div>
+
+        <div id="footer">
+                <div>
+                    <p>&copy; All rights reserved</p>
+                </div>
+
+                <div>
+                    <a href="#" style="color: white;">Home</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="color: white;">About</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="color: white;">Shop</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" style="color: white;">Contact</a>&nbsp;&nbsp;&nbsp;
+                </div>
+
+                <div>
+                    <img src="facebook.png" width="30">&nbsp;&nbsp;&nbsp;
+                    <img src="twitter.png" width="30">&nbsp;&nbsp;&nbsp;
+                    <img src="whatsapp.png".png" width="30">&nbsp;&nbsp;&nbsp;
+                </div>
+            </div>
+        </footer>
+    </body>
+
+
+
+
+        
+
+
+    </body>
+</html>
